@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
-	<Document uuid="3a481469-d431-4486-ab67-5942019bba64">
+	<Document uuid="7437c031-cf44-4260-821d-336053a986fd">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ПриходнаяНакладная" category="Object">
-				<xr:TypeId>db3ca6b7-9ac9-4fb6-9f43-2a817c05ad47</xr:TypeId>
-				<xr:ValueId>a466a8d9-f5bc-47dd-8731-36febed369b1</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.ДополнительныеЗатраты" category="Object">
+				<xr:TypeId>a5b524aa-8655-4e03-b363-fc6f177a3a10</xr:TypeId>
+				<xr:ValueId>38e8b777-a5bf-421d-ad94-45523fa2b872</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ПриходнаяНакладная" category="Ref">
-				<xr:TypeId>7aa9f9b0-6f8c-43e8-bd0b-5829061b1f9d</xr:TypeId>
-				<xr:ValueId>1fcb9488-9edc-4579-b5c9-d0398c59394a</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.ДополнительныеЗатраты" category="Ref">
+				<xr:TypeId>f2ca9f4f-0870-4c15-ac54-99d7a7741b77</xr:TypeId>
+				<xr:ValueId>19503cb5-fd83-4c81-b8cf-3d9b57503bdd</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ПриходнаяНакладная" category="Selection">
-				<xr:TypeId>92ad9a51-9ca8-48c2-94b1-f583daeafc5b</xr:TypeId>
-				<xr:ValueId>81a60373-be9c-464e-bcaa-d37143c4a9fa</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.ДополнительныеЗатраты" category="Selection">
+				<xr:TypeId>5936292d-f539-4d21-adaa-73e12d564d78</xr:TypeId>
+				<xr:ValueId>c51decf7-4593-4b9c-a806-692b7e11e5b8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ПриходнаяНакладная" category="List">
-				<xr:TypeId>97bc0087-8cc5-4468-9e5c-5a9b288ea282</xr:TypeId>
-				<xr:ValueId>2f9ea1cf-dcee-4605-8d16-0a5d9ae2e76c</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.ДополнительныеЗатраты" category="List">
+				<xr:TypeId>4d793fd8-906e-480f-9ddc-dd78772a4aea</xr:TypeId>
+				<xr:ValueId>33f29c2a-6ada-45dc-808c-55075743d333</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ПриходнаяНакладная" category="Manager">
-				<xr:TypeId>b7466f5f-d673-4fa8-a973-abdd1de01771</xr:TypeId>
-				<xr:ValueId>412e4eea-55ea-4fe9-8672-426ba32c45e0</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.ДополнительныеЗатраты" category="Manager">
+				<xr:TypeId>c8c6a3eb-df99-4c39-a3dc-019020def8fe</xr:TypeId>
+				<xr:ValueId>fd822c84-b57d-4898-acfa-34861fea0254</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ПриходнаяНакладная</Name>
+			<Name>ДополнительныеЗатраты</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Приходная накладная</v8:content>
+					<v8:content>Дополнительные затраты</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -175,13 +175,13 @@
 			<Characteristics/>
 			<BasedOn/>
 			<InputByString>
-				<xr:Field>Document.ПриходнаяНакладная.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ДополнительныеЗатраты.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Document.ПриходнаяНакладная.Form.ФормаДокумента</DefaultObjectForm>
+			<DefaultObjectForm>Document.ДополнительныеЗатраты.Form.ФормаДокумента</DefaultObjectForm>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -212,7 +212,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="e5346aa8-c4b4-4b82-b4b0-f9ba3cd78b69">
+			<Attribute uuid="ab436077-9b32-40b2-8376-f9a998cf0b15">
 				<Properties>
 					<Name>СуммаПоДокументу</Name>
 					<Synonym>
@@ -257,15 +257,15 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>
-			<TabularSection uuid="5d371be8-ad53-40a7-a072-8bb5cbfc9494">
+			<TabularSection uuid="20c38330-611a-4ba9-8e2d-ea9cc67bd4bf">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ПриходнаяНакладная.СписокНоменклатуры" category="TabularSection">
-						<xr:TypeId>c90d60d1-4bd8-4b46-a0e2-bd7661897016</xr:TypeId>
-						<xr:ValueId>48d4606f-18e2-4824-8ce5-d012e4583b9b</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSection.ДополнительныеЗатраты.СписокНоменклатуры" category="TabularSection">
+						<xr:TypeId>c10f6026-8725-464b-9d37-e639c9168e7b</xr:TypeId>
+						<xr:ValueId>19fad1e4-3c33-4fe8-b93e-5bc2401a6585</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ПриходнаяНакладная.СписокНоменклатуры" category="TabularSectionRow">
-						<xr:TypeId>256bd84a-dab7-4ff8-9ad8-d2d54a61232a</xr:TypeId>
-						<xr:ValueId>7984e5ab-ab65-4ce9-915d-c25a0b978d0d</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ДополнительныеЗатраты.СписокНоменклатуры" category="TabularSectionRow">
+						<xr:TypeId>405e3132-a7b7-4f0a-98f1-6a356c2a4d3a</xr:TypeId>
+						<xr:ValueId>2ab62f2a-33ec-4711-ac53-e98451ee942b</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -309,7 +309,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="76b1d16b-02c3-47f3-810d-9f4d99a540be">
+					<Attribute uuid="dac4c7be-c84f-4c4a-b45e-08d8b32f12de">
 						<Properties>
 							<Name>Номенклатура</Name>
 							<Synonym>
@@ -337,7 +337,7 @@
 							<ChoiceParameterLinks/>
 							<ChoiceParameters>
 								<app:item name="Отбор.ВидНоменклатуры">
-									<app:value xsi:type="xr:DesignTimeRef">Enum.ВидыНоменклатуры.EnumValue.Товар</app:value>
+									<app:value xsi:type="xr:DesignTimeRef">Enum.ВидыНоменклатуры.EnumValue.Услуга</app:value>
 								</app:item>
 							</ChoiceParameters>
 							<QuickChoice>Auto</QuickChoice>
@@ -350,21 +350,21 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="17f1d679-ff18-427e-bb12-04efe1cf657f">
+					<Attribute uuid="cf716c42-59ab-426d-ab65-cf09525d188b">
 						<Properties>
-							<Name>Количество</Name>
+							<Name>Сумма</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Количество</v8:content>
+									<v8:content>Сумма</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
-									<v8:Digits>10</v8:Digits>
-									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:Digits>12</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
 									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
 								</v8:NumberQualifiers>
 							</Type>
@@ -392,23 +392,18 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="8cd9e996-dc54-4d19-af88-fa0b219b534b">
+					<Attribute uuid="cca69483-2b81-4ac7-aa5e-bc4a1855be6d">
 						<Properties>
-							<Name>Сумма</Name>
+							<Name>Партия</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Сумма</v8:content>
+									<v8:content>Партия</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>12</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-								</v8:NumberQualifiers>
+								<v8:Type>cfg:DocumentRef.ПриходнаяНакладная</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>

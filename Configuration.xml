@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>3660de80-d0b6-411e-9bcc-a14465366b71</xr:ObjectId>
+				<xr:ObjectId>a6c2eae2-8295-440e-9b0d-cc0f16114a1c</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -36,7 +36,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Каркасная конфигурация</v8:content>
+					<v8:content>Каркасная конфигурация Задача 1.29</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment>Каркасная конфигурация 27.02.2019</Comment>
@@ -206,7 +206,7 @@
 			<Copyright/>
 			<VendorInformationAddress/>
 			<ConfigurationInformationAddress/>
-			<DataLockControlMode>Automatic</DataLockControlMode>
+			<DataLockControlMode>Managed</DataLockControlMode>
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
 			<ModalityUseMode>DontUse</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>DontUse</SynchronousPlatformExtensionAndAddInCallUseMode>
@@ -216,6 +216,9 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Закупки</Subsystem>
+			<Subsystem>Продажи</Subsystem>
+			<Subsystem>Отчеты</Subsystem>
 			<CommonPicture>ОперативныйУчет</CommonPicture>
 			<CommonPicture>БухгалтерскийУчет</CommonPicture>
 			<CommonPicture>Расчеты</CommonPicture>
@@ -229,15 +232,20 @@
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
+			<Document>ДополнительныеЗатраты</Document>
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
+			<Report>ПродажиНоменклатуры</Report>
+			<Report>ОстаткиТоваровНаСкладах</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>РегистрАдресации</InformationRegister>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<InformationRegister>СведенияОСотрудниках</InformationRegister>
+			<InformationRegister>УчетнаяПолитика</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
+			<AccumulationRegister>Продажи</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Управленческий</ChartOfAccounts>
